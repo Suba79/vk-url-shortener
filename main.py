@@ -14,7 +14,7 @@ def main():
         print("Токен не найден. Проверьте файл .env")
         return
 
-    # Создаем парсер аргументов
+
     parser = argparse.ArgumentParser(description='Сокращение ссылок через VK API')
     parser.add_argument('url', help='Ссылка для сокращения или проверки')
     args = parser.parse_args()
